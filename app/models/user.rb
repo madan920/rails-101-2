@@ -6,4 +6,5 @@ class User <ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :groups
+  has_many :posts
 end
